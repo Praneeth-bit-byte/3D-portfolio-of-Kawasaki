@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Portfolio Website HTML CSS and Javascript | Codehal</title>
+    <link rel="stylesheet" href="3D.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="cover cover-left"></div>
+        <div class="cover cover-right turn"></div>
+        <div class="book">
+            <div class="book-page page-left">
+                <div class="profile-page">
+                    <img src="data:image/png;base64,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" alt="">
+                    <h1>kawasaki</h1>
+                    <h3>zx10r</h3>
+
+                    <div class="social-media">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-twitter' ></i></a>
+                        <a href="#"><i class='bx bxl-instagram' ></i></a>
+                        <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                    </div>
+
+                    <p1>Kawasaki Motors, Ltd. is a Japanese mobility manu- facturer that produces motorcycles, 
+                    all-terrain vehicles, utility vehicles, watercraft, outboard motors, and other electric products. 
+                    It derives its origins from Kawasaki Aircraft Industries, a subsidiary of Kawasaki Heavy Industries, 
+                    and is rooted in the motorcycle, boat, and engine businesses. </p1>
+
+                    <div class="btn-box">
+                        <a href="#" class="btn">Download CV</a>
+                        <a href="#" class="btn contact-me">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+            <div class="book-page page-right turn" id="turn-1">
+                <div class="page-front">
+                    <h1 class="title">Kawasaki</h1>
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar'></i>1963</span>
+                            <h3>Motorcycles Company</h3>
+                             <p>Kawasaki's Aircraft Company began the development of a motorcycle engine in 1949.
+                                 The development was completed in 1952 and mass production started in 1953.</p>
+                            </div>
+                            
+                            <div class="workeduc-content">
+                                <span class="year"><i class='bx bxs-calendar'></i>1878</span>
+                                <h3>Watercraft Company</h3>
+                                <p>In 1973, Kawasaki introduced a limited production of stand-up models as designed by the recognized inventor of jet skis, 
+                                    Clayton Jacobson II.[11] In 1976, Kawasaki then began mass production of the JS400-A.</p>
+                                </div>
+                                
+                                <div class="workeduc-content">
+                                    <span class="year"><i class='bx bxs-calendar'></i>2012</span>
+                                        <h3>Racing Company</h3>
+                                        <p>Kawasaki's traditional racing colour is green. Many Kawasaki racing teams are called Team Green. 
+                                            The "Monster Energy Kawasaki Team Green" provides a support program developing amateur motocross racers.</p>
+                                        </div>
+                                    </div>
+                                    <span class="number-page">1</span>
+
+                                    <span class="nextprev-btn" data-page="turn-1">
+                                        <i class='bx bx-chevron-right'></i>
+                                    </span>
+                                </div>
+                <div class="page-back">
+                    <h1 class="title">Specified in:</h1>
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar'></i>1878</span>
+                            <h3>Superbike Company</h3>
+                             <p>Kawasaki's involvement in the World Superbike Championship started in 1990 
+                             with the US-based Team Muzzy Kawasaki, which managed the superbike activities until 1996</p>
+                            </div>
+                            
+                            <div class="workeduc-content">
+                                <span class="year"><i class='bx bxs-calendar'></i>1878</span>
+                                <h3>Supertwin Company</h3>
+                                <p>Kawasaki machinery has been pivotal in the development of Supertwin racing.[15] 
+                                    The racing machines are developed from the Kawasaki 650cc parallel twin commuter bike.</p>
+                                </div>
+                                
+                                <div class="workeduc-content">
+                                    <span class="year"><i class='bx bxs-calendar'></i>1918</span>
+                                        <h3>Aerospace Company</h3>
+                                        <p>Kawasaki is active in a diverse range of the aerospace industry. The company is a contractor for the Japanese ministry of defence and has built aircraft
+                                             such as the C-1 transport aircraft, T-4 intermediate jet trainer, and the P-3C antisubmarine warfare patrol airplane</p>
+                                        </div>
+                                    </div>
+                    <span class="number-page">2</span>
+
+                    <span class="nextprev-btn back" data-page="turn-1">
+                        <i class='bx bx-chevron-left' ></i>
+                    </span>
+                </div>
+            </div>
+            <div class="book-page page-right turn  " id="turn-2">
+                <div class="page-front">
+                    <h1 class="title"> Kawasaki Heavy Industries, Ltd. (KHI):</h1>
+                    <div class="services-box">
+                        <div class="services-content">
+                            <i class='bx bx-code-alt' ></i>
+                            <p><b>Business scope:</b> KHI is a conglomerate with a wide range of businesses, 
+                                including aerospace, shipbuilding, construction machinery, energy, and leisure products</p>
+                        </div>
+
+                        <div class="services-content">
+                            <i class='bx bx-code-alt' ></i>
+                            <p><b>Ships:</b> KHI builds ships, including gas carriers, large tankers, and submarines</p>
+                        </div>
+
+                        <div class="services-content">
+                            <i class='bx bx-code-alt' ></i>
+                            <p><b>Aircraft:</b> KHI manufactures and develops aircraft, helicopters, 
+                                and jet engines for defense and commercial use. They helped develop the Boeing 777, 777X, and 787 Dreamliner.</p>
+                        </div>
+
+                        <div class="services-content">
+                            <i class='bx bx-code-alt' ></i>
+                            <p><b>Rolling stock:</b> KHI builds rolling stock, including Shinkansen and New York subway cars.</p>
+                        </div>
+                    </div>
+                    <span class="number-page">3</span>
+
+                    <span class="nextprev-btn" data-page="turn-2">
+                        <i class='bx bx-chevron-right'></i>
+                    </span>
+
+
+            </div>
+                <div class="page-back">
+                    <h1 class="title">Contact Me</h1>
+                    <div class="contact-box">
+                    <form action="#">
+                        <input type="text" class="field" placeholder="Full Name" required>
+                        <input type="email" class="field" placeholder="Email Address" required>
+                        <textarea name="" id="" cols="30" rows="10" class="field" placeholder="Your Message" required></textarea>
+                        <input type="submit" class="btn" value="Send Message">
+                    </form>
+                </div>
+                <span class="number-page">4</span>
+
+                <span class="nextprev-btn back" data-page="turn-2">
+                    <i class='bx bx-chevron-left' ></i>
+                </span>
+                <a href="#" class="back-profile">
+                    <p>Profile</p>
+                    <i class='bx bxs-user'></i>
+                </a>
+                </div>
+            </div>      
+
+        </div>
+    </div>
+
+    <script src="3D.js"></script>
+</body>
+</html>
